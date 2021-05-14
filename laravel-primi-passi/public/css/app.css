@@ -1,0 +1,39 @@
+body {
+  background-color: #4e4b4b;
+  color: white;
+}
+
+body .container {
+  width: 100%;
+}
+
+body .container h1 {
+  color: #2b0303;
+  padding-bottom: 50px;
+}
+
+body .container .subcontainer {
+  padding-top: 50px;
+}
+
+body .container .subcontainer h3 {
+  color: black;
+}
+
+body .container .subcontainer img {
+  width: 150px;
+  height: 150px;
+  padding: 30px 0;
+}
+
+body .container .subcontainer a {
+  color: red;
+}
+
+body .container .subcontainer,
+body .container h1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+

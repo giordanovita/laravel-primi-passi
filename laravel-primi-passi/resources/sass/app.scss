@@ -1,0 +1,42 @@
+//
+
+
+body{
+    background-color: rgb(78, 75, 75);
+    color: white;
+
+    .container{
+        width: 100%;
+
+        h1{
+            color:rgb(43, 3, 3);
+            padding-bottom: 50px;
+        }
+
+      
+
+        .subcontainer{
+            padding-top: 50px;
+
+            h3{
+                color: black;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+                padding: 30px 0;
+            }
+            
+            a{
+                color: red;
+            }
+        }
+
+        .subcontainer, h1{
+            width: 70%;
+            margin: auto;
+            text-align: center;
+
+        }
+    }
+}
