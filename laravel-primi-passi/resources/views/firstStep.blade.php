@@ -14,16 +14,16 @@
        
         
             @for ($i = 1; $i <= 10; $i++)
-            <div class="subcontainer">
+                <div class="subcontainer">
+                    
+                    <h3>Paragrafo {{$i}}</h3>
                 
-                <h3>Paragrafo {{$i}}</h3>
-               
-                    <img src="{{asset('/img/laravel.png')}}">
-                
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi hic pariatur nihil dolorem accusantium quisquam repellendus incidunt quibusdam qui, eius assumenda, autem itaque a quos at inventore nisi esse. Officiis.</p>
-                
-                <a href="https://laravel.com/docs/8.x/readme">More Info</a>
-            </div> 
+                        <img src="{{asset('/img/laravel.png')}}">
+                    
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi hic pariatur nihil dolorem accusantium quisquam repellendus incidunt quibusdam qui, eius assumenda, autem itaque a quos at inventore nisi esse. Officiis.</p>
+                    
+                    <a href="https://laravel.com/docs/8.x/readme">More Info</a>
+                </div> 
                 
             @endfor
         
